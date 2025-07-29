@@ -1,16 +1,15 @@
 # ALX Dynamic To-Do List (JavaScript)
 
-A lightweight, interactive To-Do List application built with vanilla JavaScript. This app allows users to add, display, and remove tasks dynamically using DOM manipulation techniques.
-
----
+A lightweight, interactive To-Do List application built with vanilla JavaScript. This app allows users to add, display, remove, and persist tasks across sessions using Local Storage. A beginner-friendly project to grasp core JavaScript DOM manipulation and web storage concepts.
 
 ## 📚 Table of Contents
 
 - [Preview](#preview)
 - [Features](#features)
+- [Concepts Covered](#concepts-covered)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Folder Structure](#folder-structure)
+- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Testing](#testing)
 - [Credits](#credits)
@@ -21,13 +20,24 @@ A lightweight, interactive To-Do List application built with vanilla JavaScript.
 ## Preview
 
 ![Demo Screenshot](./assets/todo1.png)
+![Demo Screenshot](./assets/todo2.png)
 
 ## Features
 
 - Add tasks via button or pressing **Enter**
 - Remove tasks individually
+- Persist tasks using Local Storage
 - Interactive DOM updates in real-time
 - Keyboard accessibility supported
+
+---
+
+## Concepts Covered
+
+![DOM manipulation](https://img.shields.io/badge/DOM%20Manipulation-orange)
+![Event handling](https://img.shields.io/badge/Event%20Handling-green)
+![Local Storage API](https://img.shields.io/badge/Local%20Storage%20API-blue)
+![JSON parsing](https://img.shields.io/badge/JSON%20Parsing-purple)
 
 ---
 
@@ -59,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => { ... });
 - Tasks added with a `button` or pressing `Enter`
 - Each task includes a `Remove button` with an event listener to delete the task
 
-## Folder Structure
+## Project Structure
 
 ```plaintext
 dynamic-to-do-list-js/
@@ -90,12 +100,14 @@ dynamic-to-do-list-js/
 
 - Add multiple tasks
 - Try removing tasks
+- Try adding duplicate tasks
 - Press Enter to add tasks
-- Check empty input validatio
+- Check empty input validation
 
 ## Credits
 
 - Project idea & structure inspired by [ALX](https://www.alxafrica.com/) exercises
+- Icons and badges from [Shields.io](https://shields.io/)
 
 ## Contact
 
